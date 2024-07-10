@@ -1,6 +1,6 @@
 @font-face {
     font-family: poppins;
-    src: url(../src/assets/Poppins/Poppins-SemiBold.ttf);
+    src: url(../src/assets/Poppins/Poppins-Regular.ttf);
 }
 @tailwind base;
 @tailwind components;

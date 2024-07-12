@@ -30,18 +30,21 @@ function Navbar() {
     ]
   return (
    <>
-   <div className='max-w-screen-2x1 container mx-auto px-4 md:px-20 h-16 shadow-md' fixed top-0 left-0 right-0>
+   <div className='max-w-screen-2x1 container mx-auto bg-stone-400  px-4 md:px-20 h-16 shadow-md' fixed top-0 left-0 right-0>
     <div className='flex justify-between items-center h-16 '>
         <div className='flex  space-x-2'>
             <h1 className='font-semibold text-xl cursor-pointer'>Bila<span className='text-green-500 text-2xl'>l</span></h1>
+            <div>
             <p className='text-sm'>Web Developer</p>
+            <p className='text-sm'>Websites Designer</p>
+            </div>
         </div>
         {/* desktop navabar */}
                 <div>
             <ul className='hidden md:flex space-x-8'>
                {
                 navItems.map(({id,text}) =>(
-                    <li className='hover:scale-105 hover:text-red-700 duration-200 cursor-pointer' key={id}>{text}</li>
+                    <li className='hover:scale-105 hover:border-b-2 hover:border-black hover:text-red-700 duration-200 cursor-pointer' key={id}>{text}</li>
                 ))
                }
             </ul>

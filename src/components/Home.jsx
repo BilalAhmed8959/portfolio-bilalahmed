@@ -1,5 +1,5 @@
 import React from 'react'
-import pic from "../img/WhatsApp_Image_2024-07-11_at_03.47.57_ac045c74-removebg-preview.png"
+import pic from '../img/home.png'
 import { RiFacebookCircleFill } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";

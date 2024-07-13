@@ -1,0 +1,66 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.title h1{
+    padding: 0px 30px;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+ .about_section{ 
+    display: flex;
+    gap: 60px;
+} 
+.title span{
+    color: rgb(185, 55, 55);
+}
+.about_left img{
+    width: 600px;
+    height: 450px;
+    margin-top: -120px;
+}
+.about_right{
+    display: flex;
+    flex-direction:column;
+    /* gap: 80px; */
+}
+.about_par{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 500;
+}
+.about_skills{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.about_skill{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    transition: 0.3s;
+}
+.about_skill p{
+    min-width: 150px;
+    }
+.about_skill hr{
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff);
+}
+.about_achievments{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}

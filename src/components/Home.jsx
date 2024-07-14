@@ -9,6 +9,7 @@ import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { ReactTyped,Typed } from "react-typed";
+import './Home.css'
 
 
 
@@ -27,7 +28,7 @@ export default function Home() {
    <h1>Hello,I'm a</h1>
    {/* <spen >Developer</spen> */}
    <ReactTyped
-            className="text-red-700 font-bold"
+            className="home font-bold"
           strings={["Developer","coder"]}
           typeSpeed={40}
           backSpeed={50}

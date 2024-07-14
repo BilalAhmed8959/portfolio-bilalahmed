@@ -1,0 +1,14 @@
+.navbar{
+ background: linear-gradient(270deg, #df8908 50.41%, #b415ff 90.25%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 700;
+}
+.hover:hover{
+    background: linear-gradient(270deg, #df8908 50.41%, #b415ff 90.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}

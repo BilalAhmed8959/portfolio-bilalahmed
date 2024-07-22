@@ -17,11 +17,11 @@ function about() {
             <p>My passion for Frontend development is not only  reflected in my extensive experience but also in the enthusiasm and dedication I being to each project</p>
           </div>
           <div className='about_skills'>
-            <div className='about_skill'><p>HTML</p><hr style={{width:"99%"}}/></div>
-            <div className='about_skill'><p>CSS</p><hr style={{width:"99%"}}/></div>
-            <div className='about_skill'><p>jQuary</p><hr style={{width:"90%"}}/></div>
-            <div className='about_skill'><p>JavaScript</p><hr style={{width:"80%"}}/></div>
-            <div className='about_skill'><p>React js</p><hr style={{width:"50%"}}/></div>
+            <div className='about_skill'><p className='font-bold'>HTML</p><hr style={{width:"99%"}}/></div>
+            <div className='about_skill'><p className='font-bold'>CSS</p><hr style={{width:"99%"}}/></div>
+            <div className='about_skill'><p className='font-bold'>jQuary</p><hr style={{width:"90%"}}/></div>
+            <div className='about_skill'><p className='font-bold'>JavaScript</p><hr style={{width:"80%"}}/></div>
+            <div className='about_skill'><p className='font-bold'>React js</p><hr style={{width:"50%"}}/></div>
           </div>
         </div>
       </div>

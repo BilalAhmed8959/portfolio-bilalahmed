@@ -3,7 +3,7 @@ import './Portfolio.css'
 import html from '../img/html.png'
 import css from '../img/css.png'
 import bootrep from '../img/bootrep.png'
-import javascript from '../img/javascript.png'
+import javascript from '../img/javascript.jpg'
 import jquery from '../img/jquery.png'
 import react from '../img/react.png'
 
@@ -43,8 +43,8 @@ export default function Experiance() {
   return (
     <div>
     <div className='max-w-screen-2xl container  mx-auto md:px-20 text-center'>
-        <div><h1 className='head text-4xl font-bold'>Experia<span>nce</span></h1>
-        <p className=' font-semibold mt-3'>i've more than 6 manth experiance in below technologies</p>
+        <div><h1 className='head text-4xl mt-16 font-bold'>Experia<span>nce</span></h1>
+        <p className=' font-semibold mt-3'>i've more than 6 month experiance in below technologies</p>
         <div className='grid grid-cols-2 md:grid-cols-3 gap-3'>
           {
             cardItem.map(({id,logo,name}) =>(

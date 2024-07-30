@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { AiOutlineMenu } from "react-icons/ai";
 import { IoCloseSharp } from "react-icons/io5";
 import './Navbar.css'
+import { Link } from 'react-scroll';
 
 
 
@@ -31,13 +32,13 @@ function Navbar() {
     ]
   return (
    <>
-   <div className='max-w-screen-2x1 container mx-auto   px-4 md:px-20 h-16 shadow-md' fixed top-0 left-0 right-0>
+   <div className='max-w-screen-2x1 container mx-auto   px-4 md:px-20 h-16 shadow-md'>
     <div className='flex justify-between items-center h-16 '>
         <div className='flex  space-x-2'>
             <h1 className='font-semibold text-xl cursor-pointer'>Bila<span className='navbar  text-2xl'>l</span></h1>
             <div>
-            <p className='text-sm'>Web Developer</p>
-            <p className='text-sm'>Websites Designer</p>
+            <p className='box text-sm'>Web Developer</p>
+            <p className='box-2 text-sm'>Websites Designer</p>
             </div>
         </div>
         {/* desktop navabar */}
@@ -45,18 +46,29 @@ function Navbar() {
             <ul className='hidden md:flex space-x-8'>
                {
                 navItems.map(({id,text}) =>(
-                    <li className='hover hover:scale-105  duration-200 cursor-pointer' key={id}>{text}</li>
+                    <li className='hover hover:scale-105  duration-200 cursor-pointer'
+                     key={id}>
+                        {/* <link to={text}
+                        smooth={true}
+                        duration={500}
+                        offset={-70}
+                        activeClass="active"
+                        > */}
+                        {text}
+                        {/* </link> */}
+                    
+                        </li>
                 ))
                }
             </ul>
-            <div onClick={()=>setMenu(!menu)}className='md:hidden'>{menu?<AiOutlineMenu size={24}/>:<IoCloseSharp size={24}/>}
+            <div onClick={()=>setMenu(!menu)}className='md:hidden'>{menu?<IoCloseSharp size={24}/>:<AiOutlineMenu size={24}/>}
            
             </div>
         </div>
     </div>
     {/* mobail navabar  */}
     {menu && (
-    <div >
+    <div className='bg-white' >
         <ul className='md:hidden flex flex-col items-center justify-center h-screen space-y-3' >
         {
                 navItems.map(({id,text}) =>(

@@ -42,7 +42,7 @@ export default function Experiance() {
   ]
   return (
     <div>
-    <div className='max-w-screen-2xl container  mx-auto md:px-20 text-center'>
+    <div name="Experiance" className='max-w-screen-2xl container  mx-auto md:px-20 text-center'>
         <div><h1 className='head text-4xl mt-16 font-bold'>Experia<span>nce</span></h1>
         <p className=' font-semibold mt-3'>i've more than 6 month experiance in below technologies</p>
         <div className='grid grid-cols-2 md:grid-cols-3 gap-3'>

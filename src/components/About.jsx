@@ -3,7 +3,7 @@ import './About.css'
 import top from '../img/WhatsApp_Image_2024-07-11_at_03.34.04_c24de134-removebg-preview-removebg-preview.png'
 function about() {
   return (
-    <div className='about'>
+    <div name="About" className='about'>
       <div className='title'>
         <h1>About <span>me</span></h1>
       </div>

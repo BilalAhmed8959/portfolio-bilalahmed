@@ -27,12 +27,12 @@ function about() {
       </div>
       <div className='about_achievments'>
         <div className='about_achievment'>
-          <h1>10+</h1>
+          <h1>01+</h1>
           <p>YEARS OF EXPERIENCE</p>
         </div>
         <hr/>
         <div className='about_achievment'>
-          <h1>90+</h1>
+          <h1>03+</h1>
           <p>PROJECTS COMPLETED</p>
         </div>
         <hr/>

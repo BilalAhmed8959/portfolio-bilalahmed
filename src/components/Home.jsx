@@ -78,7 +78,7 @@ export default function Home() {
     </div>
     </div>
     <div className='md:w-1/2 md:ml-[100px] md:mt-0 order-1'>
-    <img src={pic} className='rounded-full md:rounded-none animate-pulse ml-0 h-[400px] mt-0 w-[500px] md:w-[450px] h-[450px] shadow-inner' alt="" />
+    <img src={pic} className='rounded-full md:rounded-none  ml-0 h-[400px] mt-0 w-[500px] md:w-[450px] h-[450px] shadow-inner' alt="" />
     </div>
 
     </div>
